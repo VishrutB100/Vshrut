@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_54024_marketing_attendees</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<div>Dear ${u_first_name},</div>
+<div>&nbsp;</div>
+<div>
+<div>&nbsp;</div>
+<div>This is to confirm that you are registered for ${u_marketing_event.u_name}. We look forward to seeing you at the event.</div>
+<div>If you have any questions please contact the Event Team at 1-888-555-1212.</div>
+</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Marketing Event Registration</name>
+        <sms_alternate/>
+        <subject>Thank you for registering for ${u_marketing_event.u_name}</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-08 10:13:10</sys_created_on>
+        <sys_id>bfed4c710f920300241587ece1050e86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Marketing Event Registration</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_54024_marketing">ef2166190fda0300241587ece1050e5e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Events Application">ef2166190fda0300241587ece1050e5e</sys_scope>
+        <sys_update_name>sysevent_email_template_bfed4c710f920300241587ece1050e86</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-08 10:13:10</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>
